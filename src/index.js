@@ -1,26 +1,14 @@
-// import 'babel-polyfill'
-// import aa from './onepg.js'
-// import './aa.css'
-import Vue  from "vue"
-let app = new Vue({
-  data() {
-    return {
-      foo: 'adf'
-    }
-  },
-  created() {
-    console.log('开始进入vcvaaadadf了')
-    debugger
-  },
-  // render
-  template: '<a>afdafdadfaf</a>'
+import Vue from 'vue' // 框架组件
+import router from './config/router.config' // 路由信息
+import store from './store' // vuex store配置
+import commonComponents from './components/index' // 公共组件存储
+import './style/index.less'
+import { setRemInit } from './lib/rem'
+setRemInit()
+Vue.use(commonComponents)
+const app = new Vue({
+  router,
+  store
 }).$mount('#app')
-// console.log(aa)
-// function ttt() {
-//   aa().then((d) => {
-//     console.log(d)
-//   })
-//   // console.log(aaa)
-//   // console.log('afd')
-// }
-// console.log(ttt())
+
+export default app
