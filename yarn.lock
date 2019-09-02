@@ -1056,6 +1056,11 @@ aproba@^1.0.3, aproba@^1.1.1:
   resolved "https://registry.npm.taobao.org/aproba/download/aproba-1.2.0.tgz#6802e6264efd18c790a1b0d517f0f2627bf2c94a"
   integrity sha1-aALmJk79GMeQobDVF/DyYnvyyUo=
 
+arale-cookie@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.npm.taobao.org/arale-cookie/download/arale-cookie-1.1.0.tgz#aecd17b54b30468e7200b72d95a3c33b4b608bc1"
+  integrity sha1-rs0XtUswRo5yALctlaPDO0tgi8E=
+
 archive-type@^4.0.0:
   version "4.0.0"
   resolved "https://registry.npm.taobao.org/archive-type/download/archive-type-4.0.0.tgz#f92e72233056dfc6969472749c267bdb046b1d70"
@@ -1231,6 +1236,14 @@ aws4@^1.8.0:
   version "1.8.0"
   resolved "https://registry.npm.taobao.org/aws4/download/aws4-1.8.0.tgz#f0e003d9ca9e7f59c7a508945d7b2ef9a04a542f"
   integrity sha1-8OAD2cqef1nHpQiUXXsu+aBKVC8=
+
+axios@0.16.2:
+  version "0.16.2"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-0.16.2.tgz#ba4f92f17167dfbab40983785454b9ac149c3c6d"
+  integrity sha1-uk+S8XFn37q0CYN4VFS5rBScPG0=
+  dependencies:
+    follow-redirects "^1.2.3"
+    is-buffer "^1.1.5"
 
 babel-eslint@^10.0.3:
   version "10.0.3"
@@ -3444,7 +3457,7 @@ flush-write-stream@^1.0.0:
     inherits "^2.0.3"
     readable-stream "^2.3.6"
 
-follow-redirects@^1.0.0:
+follow-redirects@^1.0.0, follow-redirects@^1.2.3:
   version "1.8.1"
   resolved "https://registry.npm.taobao.org/follow-redirects/download/follow-redirects-1.8.1.tgz?cache=0&sync_timestamp=1566927571345&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Ffollow-redirects%2Fdownload%2Ffollow-redirects-1.8.1.tgz#24804f9eaab67160b0e840c085885d606371a35b"
   integrity sha1-JIBPnqq2cWCw6EDAhYhdYGNxo1s=
@@ -7921,6 +7934,11 @@ vue-hot-reload-api@^2.3.0:
   resolved "https://registry.npm.taobao.org/vue-hot-reload-api/download/vue-hot-reload-api-2.3.3.tgz#2756f46cb3258054c5f4723de8ae7e87302a1ccf"
   integrity sha1-J1b0bLMlgFTF9HI96K5+hzAqHM8=
 
+vue-i18n@^8.14.0:
+  version "8.14.0"
+  resolved "https://registry.npm.taobao.org/vue-i18n/download/vue-i18n-8.14.0.tgz?cache=0&sync_timestamp=1565612880763&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fvue-i18n%2Fdownload%2Fvue-i18n-8.14.0.tgz#613cbbc21d71dc608cd085f8a94ea3a40badcd33"
+  integrity sha1-YTy7wh1x3GCM0IX4qU6jpAutzTM=
+
 vue-lazyload@^1.0.1:
   version "1.3.2"
   resolved "https://registry.npm.taobao.org/vue-lazyload/download/vue-lazyload-1.3.2.tgz?cache=0&sync_timestamp=1565348603567&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fvue-lazyload%2Fdownload%2Fvue-lazyload-1.3.2.tgz#3d6123b6a6c177aef06aa6d3ad7b6c36ce3c25ab"
@@ -8231,10 +8249,10 @@ yauzl@^2.4.2:
     buffer-crc32 "~0.2.3"
     fd-slicer "~1.1.0"
 
-yezhi-cli@^0.0.2:
-  version "0.0.2"
-  resolved "https://registry.npm.taobao.org/yezhi-cli/download/yezhi-cli-0.0.2.tgz#a628d4591bc957c8aa12c6487a144da671fd6424"
-  integrity sha1-pijUWRvJV8iqEsZIehRNpnH9ZCQ=
+yezhi-cli@^0.0.4:
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/yezhi-cli/-/yezhi-cli-0.0.4.tgz#15d6ebe0284249123251118ee0c219cf7ac26c63"
+  integrity sha512-Gw1p8tRMqu4IM+q+Xf22Yrvf6QJDNenyd9scrahV8FUzITSFsTdpV10c5AxDui7piAVUhkJgZGiSaHySNYC0tQ==
   dependencies:
     "@babel/core" "^7.5.5"
     "@babel/preset-env" "^7.5.5"

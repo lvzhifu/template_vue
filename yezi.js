@@ -1,5 +1,5 @@
 module.exports = {
-  remUnit: 37.5, // rem设置
+  remUnit: 37.5, // 设计图的总宽度是以750px为标准，则填写75；如果是375px，则填写37.5；以此类推
   // eslit 错误展示
   overlay: {
     warnings: true,
@@ -19,13 +19,14 @@ module.exports = {
   saveFile: 'dist',
   limit: 500,
   // 代理信息
+  // https://github.com/chimurai/http-proxy-middleware
   proxyTable: {
-    '^/api': {
-      target: 'http://test.ttp.com'
-      // changeOrigin: true,
-      // pathRewrite: {
-      //   // '^/api/mock': '/'
-      // }
+    '/api': {
+      target: 'https://www.easy-mock.com/mock/5d6b6447fd781877cdcc3112/example',
+      changeOrigin: true,
+      pathRewrite: {
+        '/api': ''
+      }
     }
   }
 }
