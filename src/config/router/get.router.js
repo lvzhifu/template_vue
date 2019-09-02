@@ -1,7 +1,7 @@
 
-import { isUndefined } from 'utils'
-console.log(isUndefined)
+import { isUndefined } from '@utils'
 const routerRule = require.context('../../', true, /^\.\/(pages|views)(\/[\w.-]+)?\/router.(js|ts)$/)
+console.log(routerRule)
 
 // 去中心化 加载路由
 const moduleConfig = (r => {

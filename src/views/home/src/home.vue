@@ -1,5 +1,5 @@
 <template>
-  <div>请确定您拿到了正确的券码
+  <div>{{ $t("loginbtn.btn") }}
     <p class="bbb">daf</p>
   </div>
 </template>
@@ -10,6 +10,9 @@ async function aa () {
 aa()
 console.log('adf')
 export default {
+  created () {
+    console.log(this.$Http)
+  }
 
 }
 </script>

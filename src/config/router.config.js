@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import { isUndefined } from 'utils'
+import { isUndefined } from '@utils'
 import RouterConfig from './router/get.router'
 import Layout from '../layout'
 Vue.use(Router)
